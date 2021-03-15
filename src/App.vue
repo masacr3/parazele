@@ -1,19 +1,21 @@
 <template>
   <div id="app">
-    <TimeLine></TimeLine>
+    <Redes></Redes>
   </div>
 
 </template>
 
 <script>
 import TimeLine from './TimeLine.vue'
+import Redes from './redes_s.vue'
 
 export default {
   name: 'app',
   data () {
   },
   components:{
-    'TimeLine' : TimeLine
+    'TimeLine' : TimeLine,
+    'Redes' : Redes
   }
 
 }
